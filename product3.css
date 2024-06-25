@@ -1,0 +1,89 @@
+#NavBar {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+        display: inline;
+        margin-right: 150.7px;
+        align-items: center;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: #3dcf14;
+      }
+
+    
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 16px;
+    text-align: center;
+    background-color: #f9f9f9;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures content is evenly spaced */
+    height: 300px; /* Fixed height for all cards */
+    width: 250px; /* Fixed width for all cards */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    margin: 10px; /* Ensures consistent spacing around cards */
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    width: 100%; /* Ensures the image covers the width */
+    height: 150px; /* Fixed height for images */
+    object-fit: cover; /* Ensures the image covers the space without distortion */
+    border-radius: 5px;
+    margin-bottom: auto; /* Pushes the image to the top and text to the bottom */
+}
+
+.product-card h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.product-card button {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+    background-color: #45a049; /* Darker green background on hover */
+}

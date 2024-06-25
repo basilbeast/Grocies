@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Order Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="order.css">
+    </head>
+    <body>
+        <form action="index.html" method="post">
+        <div class="order-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="product">Product:</label>
+            <select id="product" name="product">
+                <option value="milk">Fresh Milk</option>
+                <option value="artisan_cheese">Artisan Cheese</option>
+                <option value="butter">Creamy Butter</option>
+                <option value="yogurt">Natural Yogurt</option>
+                <option value="ice_cream">Vanilla Ice Cream</option>
+                <option value="cream">Fresh Cream</option>
+                <option value="kefir">Milk Kefir</option>
+                <option value="cottage_cheese">Cottage Cheese</option>
+                <option value="sour_cream">Sour Cream</option>
+                <option value="liquid_whey">Liquid Whey</option>
+                <option value="cheddar_cheese">Cheddar Cheese</option>
+                <option value="greek_yogurt">Greek Yogurt</option>
+            </select><br><br>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" required><br><br>
+
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment">
+                <option value="credit">Credit Card</option>
+                <option value="debit">Debit Card</option>
+                <option value="paypal">PayPal</option>
+            </select><br><br>
+
+            <button type="submit">Place Order</button>
+        </div>
+
+
+
+
+
+
+        </form>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+    </body>
+</html>

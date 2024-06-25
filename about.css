@@ -1,0 +1,97 @@
+#NavBar {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+        display: inline;
+        margin-right: 150.7px;
+        align-items: center;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: #3dcf14;
+      }
+
+    
+}
+
+header {
+    text-align: center;
+    text-decoration: double;
+    text-decoration-style: wavy;
+}
+
+table {
+    border: 1px solid #000;
+    background-color: #006400; /* Dark green background */
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+    }
+}
+
+th {
+    padding: 8px;
+    border: 1px solid #000;
+    color: #A9A9A9; /* Dark grey color for table heading */
+}
+
+td {
+    padding: 8px;
+    border: 1px solid #000;
+    color: #000000; /* Black color for table content */
+}
+
+#about h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #07351b; /* Sea green color for heading */
+    text-align: center;
+    margin-bottom: 20px;
+}
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333; /* Dark grey color for paragraph */
+    text-align: justify;
+    margin: 0 20px;
+}
+table caption {
+    font-size: 20px;
+    font-weight: bold;
+    color: #07351b; /* Sea green color for heading */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #176338; /* Sea green color for heading */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
