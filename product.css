@@ -1,0 +1,106 @@
+#NavBar {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+        display: inline;
+        margin-right: 150.7px;
+        align-items: center;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: #3dcf14;
+      }
+
+    
+}
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    image-rendering: optimizeQuality;
+    width: 100%;
+    height: auto;
+    object-fit:cover;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(33.333% - 20px); /* Adjust width to fit 3 cards per row, accounting for margin */
+    margin: 10px; /* Spacing between cards */
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2); /* Enhanced shadow on hover for better visual feedback */
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the area without distorting aspect ratio */
+}
+
+.product-card h3 {
+    margin-top: 12px;
+    color: #333;
+    font-size: 18px; /* Slightly larger font size for better readability */
+}
+
+.product-card p {
+    color: #666;
+    font-size: 16px; /* Increased font size for better readability */
+    margin-bottom: 12px; /* Adds space below the paragraph for better structure */
+}
+.product-card a button {
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.product-card a button:hover {
+    background-color: #45a049; /* Darker green background on hover */
+}
+

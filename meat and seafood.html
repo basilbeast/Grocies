@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meat and Seafood Products</title>
+    <link rel="stylesheet" href="meat and seafood.css">
+    <script src="shopping.js" defer></script>
+</head>
+<body>
+    <section id="NavBar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="product.html">Dairy products</a></li>
+            <li><a href="product2.html">Vegetables </a></li>
+            <li><a href="product3.html">Cosmetics</a></li>
+            <li><a href="loyalty.html">Loyalty Cards </a></li>
+          </ul>
+    </section>
+    <header>
+        <h1>Meat and Seafood Products</h1>
+    </header>
+    <div class="order-form">
+        <section class="product-grid">
+            <div class="product-card">
+                <img src="pexels-mali-65175.jpg" alt="Grass-Fed Beef" style="width: 50%; height: auto; margin: auto;">
+                <h3>Grass-Fed Beef</h3>
+                <p>High-quality beef from grass-fed cows</p>
+                <p>$15.99/lb</p>
+                    <button  id="add-to-cart" onclick="addToCart('Grass-Fed Beef', 15.99)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="pexels-cottonbro-3296279.jpg" alt="Wild-Caught Salmon" style="width: 50%; height: auto; margin: auto;">
+                <h3>Wild-Caught Salmon</h3>
+                <p>Fresh salmon caught from the wild</p>
+                <p>$12.99/lb</p>
+                    <button  id="add-to-cart" onclick="addToCart('Wild-Caught Salmon', 12.99)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="eiliv-aceron-DNQLBdGdld0-unsplash.jpg" alt="Free-Range Chicken" style="width: 50%; height: auto; margin: auto;">
+                <h3>Free-Range Chicken</h3>
+                <p>Chicken raised without antibiotics or hormones</p>
+                <p>$8.99/lb</p>
+                <button  id="add-to-cart" onclick="addToCart('Free-Range Chicken', 8.99)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="shrimp.jpg" alt="Shrimp" style="width: 50%; height: auto; margin: auto;">
+                <h3>Shrimp</h3>
+                <p>Fresh, sustainably-sourced shrimp</p>
+                <p>$10.99/lb</p>
+                <button  id="add-to-cart" onclick="addToCart('Shrimp', 10.99)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="pexels-tugay-aydin-3209475-5627474.jpg" alt="Pork Sausages" style="width: 50%; height: auto; margin: auto;">
+                <h3>Pork Sausages</h3>
+                <p>Artisanal sausages made with high-quality pork</p>
+                <p>$9.99/lb</p>
+                <button  id="add-to-cart" onclick="addToCart('Pork Sausages', 9.99)">Add to Cart</button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

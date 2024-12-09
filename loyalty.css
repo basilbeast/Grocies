@@ -1,0 +1,84 @@
+#NavBar {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+        display: inline;
+        margin-right: 150.7px;
+        align-items: center;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: #3dcf14;
+      }
+
+    
+}
+
+#loyalty-registration {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+#loyalty-registration h2 {
+    color: #333;
+    text-align: center;
+}
+
+#loyalty-registration form {
+    display: flex;
+    flex-direction: column;
+}
+
+#loyalty-registration label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#loyalty-registration input,
+#loyalty-registration select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#loyalty-registration button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#loyalty-registration button:hover {
+    background-color: #45a049;
+}
+#loyalty-registration {
+    background-image: url('bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
